@@ -106,7 +106,7 @@
                 <h2 class="dividerHeader" style="margin: .5rem;" align="center"><span><q-icon name="fab fa-instagram" style="color: #34728D;" /></span></h2>
                 <h4 style="margin: .5rem;" align="center">FEED</h4>
 
-                <div class="row" style="width: 100%; max-width: 992px; padding: 1rem; margin: 0 auto;">
+                <div class="row" style="width: 100%; max-width: 992px; margin: 0 auto;">
                     <div class="col-12 embedsocial-hashtag" data-ref="c0b3072d5f128130493b32389dafd4cfd8d5c4a3" ><a class="feed-powered-by-es" href="https://embedsocial.com/products/embedfeed/" target="_blank" title="Powered by EmbedSocial">Powered by EmbedSocial<span>→</span></a></div>
                 </div>
             </div>

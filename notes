@@ -1,0 +1,14 @@
+ssh root@143.198.105.142
+rsync -avz site/dist/spa-mat root@143.198.105.142:/var/www/danwolner.com/site/
+
+
+sudo certbot --nginx -d danwolner.com -d www.danwolner.com
+sudo ln -s /etc/nginx/sites-available/danwolner.com /etc/nginx/sites-enabled/
+rm -rf /etc/nginx/sites-enabled/danwolner.com
+
+
+sudo mkdir -p /var/www/danwolner.com/html
+sudo chown -R $USER:$USER /var/www/danwolner.com/html
+sudo chmod -R 755 /var/www/danwolner.com
+nano /var/www/danwolner.com/html/index.html
+sudo nano /etc/nginx/sites-available/danwolner.com
